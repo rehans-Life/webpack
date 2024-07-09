@@ -1,0 +1,17 @@
+body {
+  background-color: beige;
+}
+
+header {
+  text-decoration: underline;
+  color: brown;
+}
+
+:global(.btn) {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
