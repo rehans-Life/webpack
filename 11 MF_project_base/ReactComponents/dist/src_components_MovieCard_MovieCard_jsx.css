@@ -1,0 +1,43 @@
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Typography/Typography.scss ***!
+  \******************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/MovieCard/MovieCard.scss ***!
+  \****************************************************************************************************************************************************************************/
+.card {
+  margin: 20px;
+  border: 1px dashed grey;
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  align-items: center;
+}
+.card img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.card span {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+.card :hover {
+  cursor: pointer;
+}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Typography/Typography.scss (1) ***!
+  \**********************************************************************************************************************************************************************************/
+.title {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+
+.paragraph {
+  font-size: 12px;
+  font-family: "Lobster", cursive;
+  color: rgb(108, 95, 95);
+}

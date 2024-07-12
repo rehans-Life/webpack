@@ -1,4 +1,8 @@
-@import url('./assets/css/font-awesome.min.css');
+@import url("./assets/css/font-awesome.min.css");
+
+.dead-css {
+  background-color: #6a11cb;
+}
 
 .icon-background {
   background: rgb(151, 68, 240);
